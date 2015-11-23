@@ -6,17 +6,21 @@ using System.Threading.Tasks;
 
 namespace SandwichCyborg
 {
-    class SauceSelection
+    public class SauceSelection
     {
-        //System.Type theType;
-        Food theType;
+        
+
         public SauceSelection()
         {
-            theType = new Meat();
+        
         }
-        public void SauceSelect(Food order)
+        public void SauceSelect(Sauce order)
         {
-            if (typeof(Food order) == (typeof(Meat)))
+            if (order.GetType() == (typeof(Mayo)))
+            {
+
+            }
+            if (order.GetType() == (typeof(ChipotleMayo)))
             {
 
             }

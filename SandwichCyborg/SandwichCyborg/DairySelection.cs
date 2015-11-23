@@ -6,15 +6,27 @@ using System.Threading.Tasks;
 
 namespace SandwichCyborg
 {
-    class DairySelection
+    public class DairySelection
     {
-        System.Type theType;
-        private void DairySelect(Food order)
+        public void DairySelect(Food order)
         {
-            if (theType == (typeof(Meat)))
+            if (order.GetType() == (typeof(ShreddedCheddar)))
             {
 
             }
+            if (order.GetType() == (typeof(Provolone)))
+            {
+
+            }
+            if (order.GetType() == (typeof(CheddarJack)))
+            {
+
+            }
+            if (order.GetType() == (typeof(ColbyJack)))
+            {
+
+            }
+
         }
     }
 }

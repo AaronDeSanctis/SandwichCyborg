@@ -6,30 +6,29 @@ using System.Threading.Tasks;
 
 namespace SandwichCyborg
 {
-    class FoodSelection
+    public class FoodSelection
     {
-        System.Type theType;
         public void FindItem(Food order)
         {
-            if (order == typeof(Meat))
+            if (order.GetType() == (typeof(Meat)))
             {
-                MeatSelect(order);
+                MeatSelection meatChooser = new MeatSelection();
             }
-            if (theType == (typeof(Veggie)))
+            if (order.GetType() == (typeof(Veggie)))
             {
-                VeggieSelect(order);
+
             }
-            if (theType == (typeof(Dairy)))
+            if (order.GetType() == (typeof(Dairy)))
             {
-                DairySelect(order);
+
             }
-            if (theType == (typeof(Bread)))
+            if (order.GetType() == (typeof(Bread)))
             {
-                BreadSelect(order);
+
             }
-            if (theType == (typeof(Sauce)))
+            if (order.GetType() == (typeof(Sauce)))
             {
-                SauceSelect(order);
+
             }
         }
     }

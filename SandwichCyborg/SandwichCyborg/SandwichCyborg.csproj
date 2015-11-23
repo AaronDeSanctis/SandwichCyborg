@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="7GrainWheatBread.cs" />
+    <Compile Include="SevenGrainWheatBread.cs" />
     <Compile Include="Bacon.cs" />
     <Compile Include="Bread.cs" />
     <Compile Include="BreadSelection.cs" />

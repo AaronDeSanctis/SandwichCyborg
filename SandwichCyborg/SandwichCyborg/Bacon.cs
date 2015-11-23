@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SandwichCyborg
 {
-    class Bacon : Meat
+    public class Bacon : Meat
     {
     }
 }

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SandwichCyborg
 {
-    class Dairy : Food
+    public class Dairy : Food
     {
         float calcium;
         float carbohydrates;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SandwichCyborg
 {
-    class ShreddedCheddar : Dairy
+    public class ShreddedCheddar : Dairy
     {
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SandwichCyborg
 {
-    class SandwichCyborg
+    public class SandwichCyborg
     {
         public List<Food> FinalSandwich;
         FoodSelection foodSelect;

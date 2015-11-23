@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SandwichCyborg
 {
-    class Veggie : Food
+    public class Veggie : Food
     {
         float potassium;
         float dietaryFiber;

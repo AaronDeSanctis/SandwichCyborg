@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace SandwichCyborg
 {
-    class BreadSelection
+    public class BreadSelection
     {
-        System.Type theType;
-        private void BreadSelect(Food order)
+        public void BreadSelect(Food order)
         {
-            if (theType == (typeof(Meat)))
+            if (order.GetType() == (typeof(Meat)))
             {
 
             }
