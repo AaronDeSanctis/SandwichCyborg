@@ -16,17 +16,17 @@ namespace SandwichCyborg
         public void ComputeSandwich(List<Food> customerOrders)
         {
             foodSelect = new FoodSelection();
-            foreach(Food order in customerOrders)
+            foreach (Food order in customerOrders)
             {
                 Food FoodItem = foodSelect.FindItem(order);
                 FinalSandwich.Add(FoodItem);
             }
         }
-
-        
-
-      
-
- 
+        public void GiveSandwich()
+        {
+            foreach(Food item in FinalSandwich)
+            {
+                Console.WriteLine(item);
+            }
     }
 }
