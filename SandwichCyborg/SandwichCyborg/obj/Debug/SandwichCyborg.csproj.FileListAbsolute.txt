@@ -4,3 +4,4 @@ C:\Users\ADeSanctis_be\Documents\VisualStudio2013\Projects\SandwichCyborg\Sandwi
 C:\Users\ADeSanctis_be\Documents\VisualStudio2013\Projects\SandwichCyborg\SandwichCyborg\SandwichCyborg\bin\Debug\SandwichCyborg.pdb
 C:\Users\ADeSanctis_be\Documents\VisualStudio2013\Projects\SandwichCyborg\SandwichCyborg\SandwichCyborg\obj\Debug\SandwichCyborg.exe
 C:\Users\ADeSanctis_be\Documents\VisualStudio2013\Projects\SandwichCyborg\SandwichCyborg\SandwichCyborg\obj\Debug\SandwichCyborg.pdb
+C:\Users\ADeSanctis_be\Documents\VisualStudio2013\Projects\SandwichCyborg\SandwichCyborg\SandwichCyborg\obj\Debug\SandwichCyborg.csprojResolveAssemblyReference.cache

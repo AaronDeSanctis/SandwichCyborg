@@ -18,7 +18,8 @@ namespace SandwichCyborg
             foodSelect = new FoodSelection();
             foreach(Food order in customerOrders)
             {
-                foodSelect.FindItem(order);
+                Food FoodItem = foodSelect.FindItem(order);
+                FinalSandwich.Add(FoodItem);
             }
         }
 

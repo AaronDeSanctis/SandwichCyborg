@@ -14,15 +14,22 @@ namespace SandwichCyborg
         {
         
         }
-        public void SauceSelect(Sauce order)
+        public Sauce SauceSelect(Food order)
         {
             if (order.GetType() == (typeof(Mayo)))
             {
-
+                Mayo mayo = new Mayo();
+                return mayo;
             }
             if (order.GetType() == (typeof(ChipotleMayo)))
             {
-
+                ChipotleMayo chipMayo = new ChipotleMayo();
+                return chipMayo;
+            }
+            else
+            {
+                Mayo mayo = new Mayo();
+                return mayo;
             }
         }
     }
