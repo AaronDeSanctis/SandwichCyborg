@@ -8,9 +8,14 @@ namespace SandwichCyborg
 {
     public class Sauce : Food
     {
+        public string name;
         float saturatedFat;
         float sodium;
         float sugar;
         float carbohydrates;
+        public Sauce()
+        {
+            name = "Sauce";
+        }
     }
 }

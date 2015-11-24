@@ -8,5 +8,10 @@ namespace SandwichCyborg
 {
     public class Provolone : Dairy
     {
+        public string name;
+        public Provolone()
+        {
+            name = "Provolone";
+        }
     }
 }

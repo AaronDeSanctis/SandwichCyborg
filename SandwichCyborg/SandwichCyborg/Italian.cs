@@ -8,5 +8,10 @@ namespace SandwichCyborg
 {
     public class Italian : Bread
     {
+        public string name;
+        public Italian()
+        {
+            name = "Italian";
+        }
     }
 }

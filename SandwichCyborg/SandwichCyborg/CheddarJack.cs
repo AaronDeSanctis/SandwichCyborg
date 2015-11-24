@@ -8,5 +8,10 @@ namespace SandwichCyborg
 {
     public class CheddarJack : Dairy
     {
+        public string name;
+        public CheddarJack()
+        {
+            name = "Cheddar Jack";
+        }
     }
 }

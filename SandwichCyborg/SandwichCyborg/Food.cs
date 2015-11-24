@@ -8,9 +8,10 @@ namespace SandwichCyborg
 {
     public class Food
     {
+        public string name;
         public Food()
         {
-
+            name = "Food";
         }
 
     }

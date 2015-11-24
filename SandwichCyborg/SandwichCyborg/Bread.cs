@@ -13,5 +13,10 @@ namespace SandwichCyborg
         float solubleDietaryFiber;
         float insolubleDietaryFiber;
         float grain;
+        public string name;
+        public Bread()
+        {
+            name = "Bread";
+        }
     }
 }

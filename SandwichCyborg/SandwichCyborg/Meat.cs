@@ -11,7 +11,7 @@ namespace SandwichCyborg
         float protein;
         float iron;
         float vitaminB12;
-        string name;
+        public string name;
         public Meat()
         {
             name = "Meat";

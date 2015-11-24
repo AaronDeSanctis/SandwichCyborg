@@ -12,5 +12,10 @@ namespace SandwichCyborg
         float vitaminC;
         float ginseng;
         float potassium;
+        public string name;
+        public Drink()
+        {
+            name = "Drink";
+        }
     }
 }

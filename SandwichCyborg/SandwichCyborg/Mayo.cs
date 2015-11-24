@@ -8,5 +8,10 @@ namespace SandwichCyborg
 {
     public class Mayo : Sauce
     {
+        public string name;
+        public Mayo()
+        {
+            name = "Mayo";
+        }
     }
 }

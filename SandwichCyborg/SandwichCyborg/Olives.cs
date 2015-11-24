@@ -8,5 +8,10 @@ namespace SandwichCyborg
 {
     public class Olives : Veggie
     {
+        public string name;
+        public Olives()
+        {
+            name = "Olives";
+        }
     }
 }

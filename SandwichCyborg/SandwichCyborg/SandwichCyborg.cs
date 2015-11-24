@@ -8,10 +8,30 @@ namespace SandwichCyborg
 {
     public class SandwichCyborg
     {
+        public string input;
+        public List<Food> SandwichOrder;
         public List<Food> FinalSandwich;
         FoodSelection foodSelect;
+        Food food;
         public SandwichCyborg()
         {
+        }
+        public void TakeOrder()
+        {
+            while (true)
+            {
+                input = Console.ReadLine();
+                if (input == food.name)
+                {
+                    food = new Food();
+                    SandwichOrder.Add(food);
+                }
+                else
+                {
+                    ComputeSandwich(SandwichOrder);
+                    break;
+                }
+            }  
         }
         public void ComputeSandwich(List<Food> customerOrders)
         {
@@ -22,11 +42,17 @@ namespace SandwichCyborg
                 FinalSandwich.Add(FoodItem);
             }
         }
-        public void GiveSandwich()
+        public void GiveSandwichInfo()
         {
-            foreach(Food item in FinalSandwich)
+            foreach (Food item in FinalSandwich)
             {
-                Console.WriteLine(item);
+                Console.WriteLine(item.name);
+                Console.ReadLine();
             }
+        }
+        public List<Food> GiveSandwich()
+        {
+            return FinalSandwich;
+        }
     }
 }
